@@ -1,0 +1,872 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    
+   
+}
+
+
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.navbar a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.navbar h2{
+    font-size: 60px;
+}
+
+a:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+.kapakfoto img{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+   
+
+}
+
+.orta img{
+display: flex;
+flex-direction: row;
+ 
+}
+
+.ortala{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.content .logolar{
+    
+    width: 200px;
+    height: auto;
+    /* padding: 10px; */
+   
+}
+
+.content h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.bloglar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.bloglar .blog1{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog1 p{
+    text-align: center;
+}
+
+.bloglar .blog2{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog2 p{
+    text-align: center;
+}
+
+.bloglar .blog3{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+.blog3 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog3 p{
+    text-align: center;
+}
+
+.bloglar .blog4{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog4 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog4 p{
+    text-align: center;
+}
+
+.bloglar .blog5{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog5 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog5 p{
+    text-align: center;
+}
+
+.bloglar .blog6{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog6 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog6 p{
+    text-align: center;
+}
+
+.bloglar .blog7{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog7 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog7 p{
+    text-align: center;
+}
+
+.bloglar .blog8{
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.blog8 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blog8 p{
+    text-align: center;
+}
+
+.under .ortakısım{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    background-color: black;
+    gap: 40px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 45px;
+    justify-content: center;
+    color: white;
+    
+}
+
+.instagram:hover{
+    color: hotpink;
+    transition: 1s;
+    
+}
+
+.facebook:hover{
+    color: hotpink;
+    transition: 1s;
+}
+
+.youtube:hover{
+    color: hotpink;
+    transition: 1s;
+}
+
+.tiktok:hover{
+    color: hotpink;
+    transition: 1s;
+}
+
+.twitter:hover{
+    color: hotpink;
+    transition: 1s;
+}
+
+.altkısım{
+    display: flex;
+    justify-content: space-around;
+    margin-top:  10px;
+    margin-bottom: 10px;
+}
+
+.altkısım a{
+   display: block;
+   text-decoration: none;
+}
+
+.altkısım p{
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+a:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+@media (max-width: 770px){
+    .navbar a{
+        font-size: 20px;
+    }
+    .navbar h2{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 660px){
+    .ortala .logolar{
+        width: 150px;
+        height: auto;
+    }
+
+    .kapakfoto img{
+        width: 60%;
+        height: auto;
+
+    }
+
+    .altkısım {
+        display: block;
+        text-align: center;
+
+    }    
+}
+
+@media (max-width: 530px){
+    .navbar h2{
+        display: none;
+    }
+    .navbar a{
+        font-size: 25px;
+    }
+
+    .ortala .logolar{
+        width: 120px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 430px){
+    .navbar{
+        width: 100%;
+        height: 60px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        
+
+    }
+    .navbar a{
+        font-size: 15px;
+        margin: 50px;
+        
+    }
+
+}
+@media (max-width: 400){
+    .ortala{
+        padding: 0px;
+    }
+}
+
+.container{
+    display: flex;
+    
+}
+
+.navbar2{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.navbar2 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.navbar2 h2{
+    font-size: 60px;
+}
+
+.navbar2 a:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+
+
+.container1 p{
+    font-size: 40px;
+    font-style: bold;
+    color: black;
+    text-align: center;
+}
+
+.container1 input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: lightgray;
+    
+}
+
+.container1 textarea{
+    width: 300px;
+    height: 200px;
+}
+
+
+.container1 button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10%;
+    margin-top: 15px;
+    color: rgb(101, 98, 98);
+}
+
+.container1 button:hover{
+    background-color: lightgray;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2{
+    border: 2px solid black;
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.container2 h3{
+    text-decoration: underline;
+}
+
+.container2 .bilgi{
+    color: red;
+}
+
+
+.altkısım1{
+    display: flex;
+    justify-content: space-around;
+    margin-top:  10px;
+    margin-bottom: 10px;
+}
+
+.altkısım1 a{
+   display: block;
+   text-decoration: none;
+}
+
+.altkısım1 p{
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px){
+    .content1{
+        display: block;
+    }
+    .container2{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        border: none;
+        padding: 0px;
+    }
+    .container1{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 770px){
+    .navbar2 a{
+        font-size: 20px;
+    }
+    .navbar2 h2{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 660px){
+    .altkısım1 {
+        display: block;
+        text-align: center;
+
+    }    
+
+}
+
+@media (max-width: 530px){
+    .navbar2 h2{
+        display: none;
+    }
+    .navbar2 a{
+        font-size: 25px;
+    }
+}
+
+
+
+@media (max-width: 430px){
+    .navbar2{
+        width: 100%;
+        height: 60px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        
+
+    }
+    .navbar2 a{
+        font-size: 15px;
+        margin: 50px;
+        
+    }
+
+}
+
+.navbar3{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.navbar3 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.navbar3 h2{
+    font-size: 60px;
+}
+
+.navbar3 a:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+.container3{
+    display: flex;
+    border: 2px solid black;
+    width: 400px;
+    height: 850px;
+    margin: 0px;
+    justify-content: center;
+    line-height: 40px;
+    
+    
+    
+    
+}
+
+.log img{
+    width: 350px;
+    height: auto;
+    justify-content: center;
+    
+}
+
+.tanıtım{
+    font-size: 17px;
+    flex-direction: row;
+    width: 1fr;
+    
+}
+
+
+.tanıtım p  {
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.baslıklar{
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.content2{
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.bilgilendirme{
+    justify-content: center;
+}
+
+.bilgilendirme .bjk{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.bilgilendirme p{
+    font-size: 20px;
+    
+}
+
+
+@media (max-width: 770px){
+    .navbar3 a{
+        font-size: 20px;
+    }
+    .navbar3 h2{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 700px){
+    .content2{
+        display: block;
+    }
+    .bilgilendirme .bjk{
+        font-size: 40px;
+    }
+    .bilgilendirme p{
+        font-size: 17px;
+        text-align: center;
+        
+    }
+    .container3{
+        width :  100%;
+
+        height : auto;
+    }
+    .tanıtım {
+        font-size: 20px;
+    }
+    .baslıklar{
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 660px){
+    .altkısım {
+        display: block;
+        text-align: center;
+
+    }   
+}
+@media (max-width: 650px){
+    .ilkbaskan .text{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 530px){
+    .navbar3 h2{
+        display: none;
+    }
+    .navbar3 a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 430px){
+    .navbar3{
+        width: 100%;
+        height: 60px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        
+
+    }
+    .navbar3 a{
+        font-size: 15px;
+        margin: 50px;
+        
+    }
+
+}
+
+@media (max-width: 400px){
+    .ilkbaskan .text , .kalin{
+       text-align: start;
+       flex-wrap: wrap;
+    }
+    
+} 
+
+
+
+.navbar4{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.navbar4 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.navbar4 h2{
+    font-size: 60px;
+}
+
+.navbar4 a:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+   /* margin-left: 10px; */
+   flex-wrap: wrap;
+   /* flex-direction: row-reverse; */
+  
+   
+}
+
+.ilkbaskan{
+    line-height: 40px;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+
+
+.ilkbaskan p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.ilkbaskan .kalin{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.onursal{
+    border: 2px solid black;
+    width: 500px;
+    height: 1050px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+
+.onursal img{
+    width: 100%;
+    height: autopx;
+    
+    
+}
+
+.ilkbaskan .suleyman{
+    color: red;
+    font-size: 20px;
+}
+
+
+@media (max-width: 770px){
+    .navbar4 a{
+        font-size: 20px;
+    }
+    .navbar4 h2{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 660px){
+
+    .altkısım {
+        display: block;
+        text-align: center;
+
+    }    
+}
+
+@media (max-width: 600px){
+    .ilkbaskan{
+        width: 100%;
+
+    }
+    .onursal{
+        justify-content: center;
+        margin: 0px;
+    }
+    .ilkbaskan img{
+        width: 400px;
+        height: auto;
+        justify-content: start;
+    }
+}
+
+
+
+@media (max-width: 530px){
+    .navbar4 h2{
+        display: none;
+    }
+    .navbar4 a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 430px){
+    /* .onursal{
+        height: 700px;
+    } */
+}
+
+@media (max-width: 430px){
+    .navbar4{
+        width: 100%;
+        height: 60px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        
+
+    }
+    .navbar4 a{
+        font-size: 15px;
+        margin: 50px;
+        
+    }
+}
+
+@media (max-width: 430px){
+    .ilkbaskan img{
+       display: none;
+    }
+
+}
